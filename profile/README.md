@@ -1,14 +1,3 @@
-<div align="center">
-
-# Colombo South Teaching Hospital — Projects
-
-**Student-led software development | University of Sri Jayewardenepura**
-**Building digital solutions for Colombo South Teaching Hospital, Kalubowila, Sri Lanka**
-
-![Repos](https://img.shields.io/badge/Repositories-5-181717?style=flat-square&logo=github)  ![Active](https://img.shields.io/badge/Active-2-brightgreen?style=flat-square)  ![Contributors](https://img.shields.io/badge/Contributors-4-blue?style=flat-square)
-
-</div>
-
 ---
 
 ## Organization Summary
