@@ -1,3 +1,45 @@
+---
+
+## Repository Overview
+
+| Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
+|------------|--------|----------|---------|---------------|--------|-----------|
+| **obgyn-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 236 | `201aece` Merge pull request #14 from CSTH-Projects/... | Melkor | 3h ago |
+| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 31 | `bea392a` Merge pull request #4 from CSTH-Projects/d... | Melkor | 6d ago |
+| **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 2w ago |
+| **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
+| **schedule-test** | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | n/a | 1 | `deb0dc1` Initial commit | MelKor | 3mo ago |
+
+---
+
+## Commit Activity (Last 52 Weeks)
+
+```mermaid
+xychart-beta
+    title "Weekly Commits Across All Repositories"
+    x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
+    y-axis "Commits"
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 30, 0, 2, 0, 35, 58]
+```
+
+```mermaid
+xychart-beta horizontal
+    title "Commits per Repository (52 Weeks)"
+    x-axis ["obgyn-patient-information-system", "dental-management-system", "patient-management-init", "OR_Schedule", "schedule-test"]
+    y-axis "Commits"
+    bar [229, 31, 6, 4, 1]
+```
+
+| Repository | Commits (52w) | Frequency |
+|------------|---------------|-----------|
+| **obgyn-patient-information-system** | 229 | Steady |
+| **dental-management-system** | 31 | Occasional |
+| **patient-management-init** | 6 | Low |
+| **OR_Schedule** | 4 | Low |
+| **schedule-test** | 1 | Low |
+
+---
+
 ## Organization Summary
 
 | Metric | Count |
@@ -12,7 +54,7 @@
 | Security Alerts | 1 |
 | Contributors | 4 |
 | Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, Dockerfile, JavaScript, +1 more |
-| Last Updated | April 19, 2026 at 10:46 UTC |
+| Last Updated | April 19, 2026 at 10:58 UTC |
 
 ---
 
@@ -44,38 +86,6 @@ pie showData
 
 ---
 
-## Repository Overview
-
-| Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
-|------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 236 | `201aece` Merge pull request #14 from CSTH-Projects/... | Melkor | 3h ago |
-| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 31 | `bea392a` Merge pull request #4 from CSTH-Projects/d... | Melkor | 6d ago |
-| **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 2w ago |
-| **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
-| **schedule-test** | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | n/a | 1 | `deb0dc1` Initial commit | MelKor | 3mo ago |
-
----
-
-## Commit Activity (Last 52 Weeks)
-
-```mermaid
-xychart-beta
-    title "Weekly Commits Across All Repositories"
-    x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
-    y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 30, 0, 2, 0, 35, 58]
-```
-
-| Repository | Commits (52w) | Frequency | Activity |
-|------------|---------------|-----------|----------|
-| **obgyn-patient-information-system** | 229 | Steady | `####################` |
-| **dental-management-system** | 31 | Occasional | `##..................` |
-| **patient-management-init** | 6 | Low | `....................` |
-| **OR_Schedule** | 4 | Low | `....................` |
-| **schedule-test** | 1 | Low | `....................` |
-
----
-
 ## Pull Requests and Issues
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
@@ -98,12 +108,20 @@ pie showData
 
 ## Top Contributors
 
-| Rank | Contributor | Contributions | Activity |
-|------|-------------|---------------|----------|
-| 1 | `WWI2196` | 261 | `####################` |
-| 2 | `CheDil` | 12 | `....................` |
-| 3 | `chamatka2002` | 4 | `....................` |
-| 4 | `dependabot[bot]` | 1 | `....................` |
+```mermaid
+xychart-beta horizontal
+    title "Contributions by Developer"
+    x-axis ["WWI2196", "CheDil", "chamatka2002", "dependabot[bot]"]
+    y-axis "Contributions"
+    bar [261, 12, 4, 1]
+```
+
+| Rank | Contributor | Contributions |
+|------|-------------|---------------|
+| 1 | `WWI2196` | 261 |
+| 2 | `CheDil` | 12 |
+| 3 | `chamatka2002` | 4 |
+| 4 | `dependabot[bot]` | 1 |
 
 ---
 
@@ -118,7 +136,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on April 19, 2026 at 10:46 UTC.</sub>
+<sub>Auto-generated on April 19, 2026 at 10:58 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
