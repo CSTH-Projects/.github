@@ -1,0 +1,40 @@
+name: Update Org Dashboard
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Daily at 6:00 UTC
+  repository_dispatch:
+    types: [repo-updated]
+  workflow_dispatch: # Manual trigger from Actions tab
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORG_DASHBOARD_TOKEN }}
+          ORG_NAME: CSTH-Projects
+        run: python scripts/generate_org_dashboard.py
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet profile/README.md 2>/dev/null && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "dashboard: auto-update org profile [skip ci]"
+          git push
