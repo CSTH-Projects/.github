@@ -1,5 +1,3 @@
----
-
 ## Organization Summary
 
 | Metric | Count |
