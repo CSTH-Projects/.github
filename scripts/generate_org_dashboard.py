@@ -219,7 +219,12 @@ def generate_dashboard(repos: list[dict]) -> str:
     lines.append(f"| **Total Repositories** | {total_repos} |")
     lines.append(f"| **Active Repositories** (last 30 days) | {active_repos} |")
     lines.append(f"| **Open Issues + PRs** | {total_issues} |")
-    lines.append(f"| **Languages Used** | {', '.join(f'{LANG_EMOJIS.get(l, \"📦\")} {l}' for l in sorted(languages, key=lambda x: -languages[x]))} |")
+    default_emoji = "📦"
+    lang_list = ', '.join(
+        f'{LANG_EMOJIS.get(l, default_emoji)} {l}'
+        for l in sorted(languages, key=lambda x: -languages[x])
+    )
+    lines.append(f"| **Languages Used** | {lang_list} |")
     lines.append(f"| **Last Dashboard Update** | {date_str} |")
     lines.append(f"")
 
