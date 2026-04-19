@@ -367,7 +367,6 @@ def generate_dashboard(repos: list[dict]) -> str:
     lines: list[str] = []
 
     # ── REPOSITORY OVERVIEW (Section 1) ───────────────────────────────────
-    lines.append("---\n")
     lines.append("## Repository Overview\n")
     lines.append(
         "| Repository | Status | Language | Commits | "
