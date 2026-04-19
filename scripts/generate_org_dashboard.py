@@ -286,14 +286,6 @@ def frequency_label(total_52w: int) -> str:
     return "None"
 
 
-def progress_bar(value: int, max_value: int, width: int = 20) -> str:
-    """ASCII progress bar."""
-    if max_value == 0:
-        return "`" + "." * width + "`"
-    filled = min(int(value / max_value * width), width)
-    return "`" + "#" * filled + "." * (width - filled) + "`"
-
-
 # ═══════════════════════════════════════════════════════════════════════════
 # Dashboard generator
 # ═══════════════════════════════════════════════════════════════════════════
@@ -374,69 +366,7 @@ def generate_dashboard(repos: list[dict]) -> str:
 
     lines: list[str] = []
 
-    # ── HEADER ───────────────────────────────────────────────────────────
-    lines.append('<div align="center">\n')
-    lines.append("# Colombo South Teaching Hospital — Projects\n")
-    lines.append("**Student-led software development | University of Sri Jayewardenepura**")
-    lines.append("**Building digital solutions for Colombo South Teaching Hospital, Kalubowila, Sri Lanka**\n")
-    lines.append(
-        f"![Repos](https://img.shields.io/badge/Repositories-{total_repos}-181717?style=flat-square&logo=github)"
-        f"  ![Active](https://img.shields.io/badge/Active-{active_count}-brightgreen?style=flat-square)"
-        f"  ![Contributors](https://img.shields.io/badge/Contributors-{total_contributors}-blue?style=flat-square)"
-    )
-    lines.append("\n</div>\n")
-
-    # ── ORGANIZATION SUMMARY ─────────────────────────────────────────────
-    lines.append("---\n")
-    lines.append("## Organization Summary\n")
-    lines.append("| Metric | Count |")
-    lines.append("|--------|-------|")
-    lines.append(f"| Repositories | {total_repos} |")
-    lines.append(f"| Active (last 7 days) | {active_count} |")
-    lines.append(f"| Total Commits | {total_commits_all:,} |")
-    lines.append(f"| Open Pull Requests | {total_open_prs_all} |")
-    lines.append(f"| Merged/Closed Pull Requests | {total_closed_prs_all} |")
-    lines.append(f"| Open Issues | {total_open_issues_all} |")
-    lines.append(f"| Closed Issues | {total_closed_issues_all} |")
-    lines.append(f"| Security Alerts | {total_security_alerts} |")
-    lines.append(f"| Contributors | {total_contributors} |")
-    lang_display = ", ".join(unique_languages[:8])
-    if len(unique_languages) > 8:
-        lang_display += f", +{len(unique_languages) - 8} more"
-    lines.append(f"| Languages | {lang_display} |")
-    lines.append(f"| Last Updated | {date_str} |")
-    lines.append("")
-
-    # ── LANGUAGE DISTRIBUTION (Mermaid Pie Chart) ────────────────────────
-    lines.append("---\n")
-    lines.append("## Language Distribution\n")
-    total_bytes = sum(all_languages.values()) or 1
-    # Show top 8 languages, group rest as "Other"
-    sorted_langs = sorted(all_languages.items(), key=lambda x: -x[1])
-    top_langs = sorted_langs[:8]
-    other_bytes = sum(v for _, v in sorted_langs[8:])
-
-    lines.append("```mermaid")
-    lines.append("pie showData")
-    lines.append('    title Codebase Language Breakdown (by bytes)')
-    for lang, byte_count in top_langs:
-        pct = byte_count / total_bytes * 100
-        lines.append(f'    "{lang}" : {pct:.1f}')
-    if other_bytes > 0:
-        lines.append(f'    "Other" : {other_bytes / total_bytes * 100:.1f}')
-    lines.append("```\n")
-
-    # Language badges row
-    for lang, byte_count in top_langs:
-        pct = byte_count / total_bytes * 100
-        color = LANG_COLORS.get(lang, "999999")
-        safe_name = lang.replace(" ", "%20").replace("#", "%23")
-        lines.append(
-            f"![{lang}](https://img.shields.io/badge/{safe_name}-{pct:.1f}%25-{color}?style=flat-square)"
-        )
-    lines.append("\n")
-
-    # ── REPOSITORY DETAILS ───────────────────────────────────────────────
+    # ── REPOSITORY OVERVIEW (Section 1) ───────────────────────────────────
     lines.append("---\n")
     lines.append("## Repository Overview\n")
     lines.append(
@@ -477,7 +407,7 @@ def generate_dashboard(repos: list[dict]) -> str:
         )
     lines.append("")
 
-    # ── COMMIT ACTIVITY (Mermaid Bar Chart) ──────────────────────────────
+    # ── COMMIT ACTIVITY (Section 2 — Mermaid Bar Chart) ─────────────────
     lines.append("---\n")
     lines.append("## Commit Activity (Last 52 Weeks)\n")
     lines.append("```mermaid")
@@ -501,19 +431,78 @@ def generate_dashboard(repos: list[dict]) -> str:
     lines.append(f'    bar [{values_str}]')
     lines.append("```\n")
 
-    # Per-repo frequency table
-    lines.append("| Repository | Commits (52w) | Frequency | Activity |")
-    lines.append("|------------|---------------|-----------|----------|")
-    for r in repo_data:
-        if r["archived"]:
-            continue
+    # Per-repo commit frequency (Mermaid horizontal bar)
+    non_archived = [r for r in repo_data if not r.get("archived")]
+    if non_archived:
+        lines.append("```mermaid")
+        lines.append("xychart-beta horizontal")
+        lines.append('    title "Commits per Repository (52 Weeks)"')
+        repo_names = [r["name"] for r in non_archived]
+        repo_commits = [r["participation"]["total_52w"] for r in non_archived]
+        names_str = ", ".join(f'"{n}"' for n in repo_names)
+        commits_str = ", ".join(str(c) for c in repo_commits)
+        lines.append(f'    x-axis [{names_str}]')
+        lines.append(f'    y-axis "Commits"')
+        lines.append(f'    bar [{commits_str}]')
+        lines.append("```\n")
+
+    lines.append("| Repository | Commits (52w) | Frequency |")
+    lines.append("|------------|---------------|-----------|")
+    for r in non_archived:
         c52 = r["participation"]["total_52w"]
         freq = frequency_label(c52)
-        bar = progress_bar(c52, max_commits_52w)
-        lines.append(f"| **{r['name']}** | {c52} | {freq} | {bar} |")
+        lines.append(f"| **{r['name']}** | {c52} | {freq} |")
     lines.append("")
 
-    # ── PULL REQUESTS & ISSUES ───────────────────────────────────────────
+    # ── ORGANIZATION SUMMARY (Section 3) ─────────────────────────────────
+    lines.append("---\n")
+    lines.append("## Organization Summary\n")
+    lines.append("| Metric | Count |")
+    lines.append("|--------|-------|")
+    lines.append(f"| Repositories | {total_repos} |")
+    lines.append(f"| Active (last 7 days) | {active_count} |")
+    lines.append(f"| Total Commits | {total_commits_all:,} |")
+    lines.append(f"| Open Pull Requests | {total_open_prs_all} |")
+    lines.append(f"| Merged/Closed Pull Requests | {total_closed_prs_all} |")
+    lines.append(f"| Open Issues | {total_open_issues_all} |")
+    lines.append(f"| Closed Issues | {total_closed_issues_all} |")
+    lines.append(f"| Security Alerts | {total_security_alerts} |")
+    lines.append(f"| Contributors | {total_contributors} |")
+    lang_display = ", ".join(unique_languages[:8])
+    if len(unique_languages) > 8:
+        lang_display += f", +{len(unique_languages) - 8} more"
+    lines.append(f"| Languages | {lang_display} |")
+    lines.append(f"| Last Updated | {date_str} |")
+    lines.append("")
+
+    # ── LANGUAGE DISTRIBUTION (Section 4 — Mermaid Pie Chart) ────────────
+    lines.append("---\n")
+    lines.append("## Language Distribution\n")
+    total_bytes = sum(all_languages.values()) or 1
+    sorted_langs = sorted(all_languages.items(), key=lambda x: -x[1])
+    top_langs = sorted_langs[:8]
+    other_bytes = sum(v for _, v in sorted_langs[8:])
+
+    lines.append("```mermaid")
+    lines.append("pie showData")
+    lines.append('    title Codebase Language Breakdown (by bytes)')
+    for lang, byte_count in top_langs:
+        pct = byte_count / total_bytes * 100
+        lines.append(f'    "{lang}" : {pct:.1f}')
+    if other_bytes > 0:
+        lines.append(f'    "Other" : {other_bytes / total_bytes * 100:.1f}')
+    lines.append("```\n")
+
+    for lang, byte_count in top_langs:
+        pct = byte_count / total_bytes * 100
+        color = LANG_COLORS.get(lang, "999999")
+        safe_name = lang.replace(" ", "%20").replace("#", "%23")
+        lines.append(
+            f"![{lang}](https://img.shields.io/badge/{safe_name}-{pct:.1f}%25-{color}?style=flat-square)"
+        )
+    lines.append("\n")
+
+    # ── PULL REQUESTS & ISSUES (Section 5) ───────────────────────────────
     lines.append("---\n")
     lines.append("## Pull Requests and Issues\n")
     lines.append(
@@ -549,7 +538,7 @@ def generate_dashboard(repos: list[dict]) -> str:
             lines.append(f'    "Closed Issues" : {total_closed_issues_all}')
         lines.append("```\n")
 
-    # ── CONTRIBUTORS ─────────────────────────────────────────────────────
+    # ── CONTRIBUTORS (Section 6 — Mermaid Bar Chart) ─────────────────────
     lines.append("---\n")
     lines.append("## Top Contributors\n")
 
@@ -562,12 +551,24 @@ def generate_dashboard(repos: list[dict]) -> str:
 
     sorted_contributors = sorted(contributor_totals.items(), key=lambda x: -x[1])[:15]
     if sorted_contributors:
-        max_contribs = sorted_contributors[0][1] or 1
-        lines.append("| Rank | Contributor | Contributions | Activity |")
-        lines.append("|------|-------------|---------------|----------|")
+        # Mermaid horizontal bar chart for contributions
+        lines.append("```mermaid")
+        lines.append("xychart-beta horizontal")
+        lines.append('    title "Contributions by Developer"')
+        contributor_names = [sc[0] for sc in sorted_contributors]
+        contributor_counts = [sc[1] for sc in sorted_contributors]
+        names_str = ", ".join(f'"{n}"' for n in contributor_names)
+        counts_str = ", ".join(str(c) for c in contributor_counts)
+        lines.append(f'    x-axis [{names_str}]')
+        lines.append(f'    y-axis "Contributions"')
+        lines.append(f'    bar [{counts_str}]')
+        lines.append("```\n")
+
+        # Also show the data table
+        lines.append("| Rank | Contributor | Contributions |")
+        lines.append("|------|-------------|---------------|")
         for i, (login, count) in enumerate(sorted_contributors, 1):
-            bar = progress_bar(count, max_contribs)
-            lines.append(f"| {i} | `{login}` | {count:,} | {bar} |")
+            lines.append(f"| {i} | `{login}` | {count:,} |")
         lines.append("")
 
     # ── PER-REPO LANGUAGE BREAKDOWN ──────────────────────────────────────
