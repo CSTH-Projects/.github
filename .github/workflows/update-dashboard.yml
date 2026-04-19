@@ -2,7 +2,7 @@ name: Update Org Dashboard
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Every 6 hours as fallback
+    - cron: "*/30 * * * *" # Every 30 minutes
   repository_dispatch:
     types: [repo-updated]
   workflow_dispatch: # Manual trigger from Actions tab
