@@ -537,39 +537,6 @@ def generate_dashboard(repos: list[dict]) -> str:
             lines.append(f'    "Closed Issues" : {total_closed_issues_all}')
         lines.append("```\n")
 
-    # ── CONTRIBUTORS (Section 6 — Mermaid Bar Chart) ─────────────────────
-    lines.append("---\n")
-    lines.append("## Top Contributors\n")
-
-    # Aggregate contributions across repos
-    contributor_totals: dict[str, int] = {}
-    for r in repo_data:
-        for c in r["contributors"]:
-            login = c["login"]
-            contributor_totals[login] = contributor_totals.get(login, 0) + c["contributions"]
-
-    sorted_contributors = sorted(contributor_totals.items(), key=lambda x: -x[1])[:15]
-    if sorted_contributors:
-        # Mermaid horizontal bar chart for contributions
-        lines.append("```mermaid")
-        lines.append("xychart-beta horizontal")
-        lines.append('    title "Contributions by Developer"')
-        contributor_names = [sc[0] for sc in sorted_contributors]
-        contributor_counts = [sc[1] for sc in sorted_contributors]
-        names_str = ", ".join(f'"{n}"' for n in contributor_names)
-        counts_str = ", ".join(str(c) for c in contributor_counts)
-        lines.append(f'    x-axis [{names_str}]')
-        lines.append(f'    y-axis "Contributions"')
-        lines.append(f'    bar [{counts_str}]')
-        lines.append("```\n")
-
-        # Also show the data table
-        lines.append("| Rank | Contributor | Contributions |")
-        lines.append("|------|-------------|---------------|")
-        for i, (login, count) in enumerate(sorted_contributors, 1):
-            lines.append(f"| {i} | `{login}` | {count:,} |")
-        lines.append("")
-
     # ── PER-REPO LANGUAGE BREAKDOWN ──────────────────────────────────────
     lines.append("---\n")
     lines.append("## Per-Repository Language Breakdown\n")
