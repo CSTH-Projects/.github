@@ -1,0 +1,41 @@
+# ──────────────────────────────────────────────────────────────────────────
+# REAL-TIME DASHBOARD UPDATE TRIGGER
+# ──────────────────────────────────────────────────────────────────────────
+# Copy this file into any CSTH-Projects repo at:
+#   .github/workflows/notify-dashboard.yml
+#
+# It dispatches to the .github repo on every push, PR, issue, or
+# security event, causing the org profile to regenerate immediately.
+#
+# Requirements:
+#   - Secret ORG_DASHBOARD_TOKEN must be set at the org level
+#     (Settings > Secrets > Actions > Organization secrets)
+#     so all repos can access it automatically.
+# ──────────────────────────────────────────────────────────────────────────
+
+name: Notify Org Dashboard
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    types: [opened, closed, reopened, synchronize]
+  issues:
+    types: [opened, closed, reopened]
+  release:
+    types: [published]
+  dependabot_alert:
+    types: [created, dismissed, fixed]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    if: github.repository != 'CSTH-Projects/.github'
+    steps:
+      - name: Trigger dashboard refresh
+        run: |
+          curl -s -X POST \
+            -H "Authorization: Bearer ${{ secrets.ORG_DASHBOARD_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/CSTH-Projects/.github/dispatches \
+            -d '{"event_type": "repo-updated", "client_payload": {"repo": "${{ github.repository }}", "event": "${{ github.event_name }}"}}'
