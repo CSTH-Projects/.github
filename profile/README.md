@@ -2,7 +2,7 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 252 | `9316a5f` Merge pull request #17 from CSTH-Projects/... | Melkor | 5h ago |
+| **obgyn-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 262 | `2c7b2b4` docs: auto-update documentation index [ski... | github-actions[bot] | 5m ago |
 | **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 31 | `bea392a` Merge pull request #4 from CSTH-Projects/d... | Melkor | 1w ago |
 | **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 2w ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -44,15 +44,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 5 |
 | Active (last 7 days) | 2 |
-| Total Commits | 294 |
+| Total Commits | 304 |
 | Open Pull Requests | 1 |
-| Merged/Closed Pull Requests | 16 |
+| Merged/Closed Pull Requests | 17 |
 | Open Issues | 2 |
 | Closed Issues | 2 |
 | Security Alerts | 1 |
-| Contributors | 4 |
-| Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, Dockerfile, JavaScript, +1 more |
-| Last Updated | April 20, 2026 at 22:31 UTC |
+| Contributors | 5 |
+| Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, JavaScript, Dockerfile, +1 more |
+| Last Updated | April 20, 2026 at 23:31 UTC |
 
 ---
 
@@ -62,24 +62,24 @@ xychart-beta horizontal
 pie showData
     title Codebase Language Breakdown (by bytes)
     "TypeScript" : 64.7
-    "Python" : 27.9
+    "Python" : 27.8
     "PLpgSQL" : 2.9
     "Shell" : 1.8
     "CSS" : 1.5
     "FreeMarker" : 0.8
-    "Dockerfile" : 0.2
     "JavaScript" : 0.2
+    "Dockerfile" : 0.2
     "Other" : 0.0
 ```
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-64.7%25-3178C6?style=flat-square)
-![Python](https://img.shields.io/badge/Python-27.9%25-3776AB?style=flat-square)
+![Python](https://img.shields.io/badge/Python-27.8%25-3776AB?style=flat-square)
 ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-2.9%25-999999?style=flat-square)
 ![Shell](https://img.shields.io/badge/Shell-1.8%25-89E051?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-1.5%25-563D7C?style=flat-square)
 ![FreeMarker](https://img.shields.io/badge/FreeMarker-0.8%25-999999?style=flat-square)
-![Dockerfile](https://img.shields.io/badge/Dockerfile-0.2%25-384D54?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0.2%25-F7DF1E?style=flat-square)
+![Dockerfile](https://img.shields.io/badge/Dockerfile-0.2%25-384D54?style=flat-square)
 
 
 ---
@@ -88,7 +88,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 1 | 12 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 1 | 13 | 1 | 1 | **1** |
 | **dental-management-system** | 0 | 4 | 1 | 1 | 0 |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
@@ -98,7 +98,7 @@ pie showData
 pie showData
     title "PRs and Issues Across Organization"
     "Open PRs" : 1
-    "Closed PRs" : 16
+    "Closed PRs" : 17
     "Open Issues" : 2
     "Closed Issues" : 2
 ```
@@ -116,7 +116,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on April 20, 2026 at 22:31 UTC.</sub>
+<sub>Auto-generated on April 20, 2026 at 23:31 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
