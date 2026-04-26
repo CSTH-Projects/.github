@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 366 | `e9f6bbe` Feat/surgery video improvements (#97) | Melkor | 25m ago |
-| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 43m ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 366 | `e9f6bbe` Feat/surgery video improvements (#97) | Melkor | 17m ago |
+| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 2h ago |
 | **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 2d ago |
 | **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 3w ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -47,14 +47,14 @@ xychart-beta horizontal
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
 | Total Commits | 410 |
-| Open Pull Requests | 1 |
+| Open Pull Requests | 2 |
 | Merged/Closed Pull Requests | 92 |
 | Open Issues | 2 |
 | Closed Issues | 2 |
 | Security Alerts | 1 |
 | Contributors | 5 |
 | Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, Dockerfile, JavaScript, +3 more |
-| Last Updated | April 26, 2026 at 12:03 UTC |
+| Last Updated | April 26, 2026 at 13:44 UTC |
 
 ---
 
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 1 | 88 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 2 | 88 | 1 | 1 | **1** |
 | **sju-medical-patient-information-system** | 0 | 0 | 0 | 0 | 0 |
 | **dental-management-system** | 0 | 4 | 1 | 1 | 0 |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
@@ -100,7 +100,7 @@ pie showData
 ```mermaid
 pie showData
     title "PRs and Issues Across Organization"
-    "Open PRs" : 1
+    "Open PRs" : 2
     "Closed PRs" : 92
     "Open Issues" : 2
     "Closed Issues" : 2
@@ -119,7 +119,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on April 26, 2026 at 12:03 UTC.</sub>
+<sub>Auto-generated on April 26, 2026 at 13:44 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
