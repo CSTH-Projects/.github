@@ -2,7 +2,7 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 476 | `e716adf` Merge pull request #122 from CSTH-Projects... | Melkor | 19m ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 492 | `82b5287` Merge pull request #123 from CSTH-Projects... | Melkor | 35m ago |
 | **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 2d ago |
 | **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 4d ago |
 | **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 4w ago |
@@ -46,15 +46,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
-| Total Commits | 520 |
+| Total Commits | 536 |
 | Open Pull Requests | 0 |
-| Merged/Closed Pull Requests | 116 |
-| Open Issues | 2 |
+| Merged/Closed Pull Requests | 117 |
+| Open Issues | 3 |
 | Closed Issues | 2 |
 | Security Alerts | 1 |
 | Contributors | 6 |
 | Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, JavaScript, Dockerfile, +3 more |
-| Last Updated | April 28, 2026 at 13:12 UTC |
+| Last Updated | April 28, 2026 at 15:42 UTC |
 
 ---
 
@@ -63,23 +63,23 @@ xychart-beta horizontal
 ```mermaid
 pie showData
     title Codebase Language Breakdown (by bytes)
-    "TypeScript" : 60.8
-    "Python" : 25.8
-    "PLpgSQL" : 8.2
-    "Shell" : 2.3
+    "TypeScript" : 60.7
+    "Python" : 25.7
+    "PLpgSQL" : 8.3
+    "Shell" : 2.5
     "CSS" : 1.3
-    "FreeMarker" : 0.8
+    "FreeMarker" : 0.7
     "JavaScript" : 0.4
     "Dockerfile" : 0.2
     "Other" : 0.1
 ```
 
-![TypeScript](https://img.shields.io/badge/TypeScript-60.8%25-3178C6?style=flat-square)
-![Python](https://img.shields.io/badge/Python-25.8%25-3776AB?style=flat-square)
-![PLpgSQL](https://img.shields.io/badge/PLpgSQL-8.2%25-999999?style=flat-square)
-![Shell](https://img.shields.io/badge/Shell-2.3%25-89E051?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-60.7%25-3178C6?style=flat-square)
+![Python](https://img.shields.io/badge/Python-25.7%25-3776AB?style=flat-square)
+![PLpgSQL](https://img.shields.io/badge/PLpgSQL-8.3%25-999999?style=flat-square)
+![Shell](https://img.shields.io/badge/Shell-2.5%25-89E051?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-1.3%25-563D7C?style=flat-square)
-![FreeMarker](https://img.shields.io/badge/FreeMarker-0.8%25-999999?style=flat-square)
+![FreeMarker](https://img.shields.io/badge/FreeMarker-0.7%25-999999?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0.4%25-F7DF1E?style=flat-square)
 ![Dockerfile](https://img.shields.io/badge/Dockerfile-0.2%25-384D54?style=flat-square)
 
@@ -90,8 +90,8 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 0 | 112 | 1 | 1 | **1** |
-| **sju-medical-patient-information-system** | 0 | 0 | 0 | 0 | 0 |
+| **obgyn-patient-information-system** | 0 | 113 | 1 | 1 | **1** |
+| **sju-medical-patient-information-system** | 0 | 0 | 1 | 0 | 0 |
 | **dental-management-system** | 0 | 4 | 1 | 1 | 0 |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
@@ -100,8 +100,8 @@ pie showData
 ```mermaid
 pie showData
     title "PRs and Issues Across Organization"
-    "Closed PRs" : 116
-    "Open Issues" : 2
+    "Closed PRs" : 117
+    "Open Issues" : 3
     "Closed Issues" : 2
 ```
 
@@ -118,7 +118,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on April 28, 2026 at 13:12 UTC.</sub>
+<sub>Auto-generated on April 28, 2026 at 15:42 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
