@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 4h ago |
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 517 | `3cee53c` Merge pull request #125 from CSTH-Projects... | Melkor | 11h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 533 | `6be3fed` refactor(vitals): coexist VitalsPanel per ... | Melkor_1 | 8m ago |
+| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 6h ago |
 | **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 3d ago |
 | **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 4w ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -24,15 +24,15 @@ xychart-beta
 ```mermaid
 xychart-beta horizontal
     title "Commits per Repository (52 Weeks)"
-    x-axis ["dental-management-system", "obgyn-patient-information-system", "sju-medical-patient-information-system", "patient-management-init", "OR_Schedule", "schedule-test"]
+    x-axis ["obgyn-patient-information-system", "dental-management-system", "sju-medical-patient-information-system", "patient-management-init", "OR_Schedule", "schedule-test"]
     y-axis "Commits"
-    bar [32, 515, 1, 6, 4, 1]
+    bar [515, 32, 1, 6, 4, 1]
 ```
 
 | Repository | Commits (52w) | Frequency |
 |------------|---------------|-----------|
-| **dental-management-system** | 32 | Occasional |
 | **obgyn-patient-information-system** | 515 | Very Active |
+| **dental-management-system** | 32 | Occasional |
 | **sju-medical-patient-information-system** | 1 | Low |
 | **patient-management-init** | 6 | Low |
 | **OR_Schedule** | 4 | Low |
@@ -46,7 +46,7 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
-| Total Commits | 561 |
+| Total Commits | 577 |
 | Open Pull Requests | 1 |
 | Merged/Closed Pull Requests | 119 |
 | Open Issues | 3 |
@@ -54,7 +54,7 @@ xychart-beta horizontal
 | Security Alerts | 1 |
 | Contributors | 6 |
 | Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, JavaScript, Dockerfile, +3 more |
-| Last Updated | April 29, 2026 at 11:22 UTC |
+| Last Updated | April 29, 2026 at 13:00 UTC |
 
 ---
 
@@ -63,23 +63,23 @@ xychart-beta horizontal
 ```mermaid
 pie showData
     title Codebase Language Breakdown (by bytes)
-    "TypeScript" : 60.7
+    "TypeScript" : 60.8
     "Python" : 25.5
     "PLpgSQL" : 8.4
-    "Shell" : 2.6
+    "Shell" : 2.5
     "CSS" : 1.3
-    "FreeMarker" : 0.8
+    "FreeMarker" : 0.7
     "JavaScript" : 0.3
     "Dockerfile" : 0.2
     "Other" : 0.1
 ```
 
-![TypeScript](https://img.shields.io/badge/TypeScript-60.7%25-3178C6?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-60.8%25-3178C6?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-25.5%25-3776AB?style=flat-square)
 ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-8.4%25-999999?style=flat-square)
-![Shell](https://img.shields.io/badge/Shell-2.6%25-89E051?style=flat-square)
+![Shell](https://img.shields.io/badge/Shell-2.5%25-89E051?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-1.3%25-563D7C?style=flat-square)
-![FreeMarker](https://img.shields.io/badge/FreeMarker-0.8%25-999999?style=flat-square)
+![FreeMarker](https://img.shields.io/badge/FreeMarker-0.7%25-999999?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0.3%25-F7DF1E?style=flat-square)
 ![Dockerfile](https://img.shields.io/badge/Dockerfile-0.2%25-384D54?style=flat-square)
 
@@ -90,8 +90,8 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **dental-management-system** | 1 | 4 | 1 | 1 | 0 |
 | **obgyn-patient-information-system** | 0 | 115 | 1 | 1 | **1** |
+| **dental-management-system** | 1 | 4 | 1 | 1 | 0 |
 | **sju-medical-patient-information-system** | 0 | 0 | 1 | 0 | 0 |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
@@ -110,8 +110,8 @@ pie showData
 
 ## Per-Repository Language Breakdown
 
-**dental-management-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-99%25-3178C6?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-0%25-F7DF1E?style=flat-square)  
 **obgyn-patient-information-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-60%25-3178C6?style=flat-square) ![Python](https://img.shields.io/badge/Python-26%25-3776AB?style=flat-square) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-9%25-999999?style=flat-square) ![Shell](https://img.shields.io/badge/Shell-3%25-89E051?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square)  
+**dental-management-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-99%25-3178C6?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-0%25-F7DF1E?style=flat-square)  
 **patient-management-init**: ![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=flat-square)  
 **OR_Schedule**: ![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=flat-square)  
 
@@ -119,7 +119,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on April 29, 2026 at 11:22 UTC.</sub>
+<sub>Auto-generated on April 29, 2026 at 13:00 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
