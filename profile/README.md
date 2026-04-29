@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 544 | `e9320f1` Merge pull request #127 from CSTH-Projects... | Melkor | 5h ago |
-| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 16h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 551 | `bc52c48` Merge pull request #128 from CSTH-Projects... | Melkor | 9m ago |
+| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 17h ago |
 | **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 3d ago |
 | **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 4w ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -46,15 +46,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
-| Total Commits | 588 |
-| Open Pull Requests | 2 |
-| Merged/Closed Pull Requests | 121 |
+| Total Commits | 595 |
+| Open Pull Requests | 1 |
+| Merged/Closed Pull Requests | 122 |
 | Open Issues | 3 |
 | Closed Issues | 2 |
 | Security Alerts | 1 |
 | Contributors | 6 |
 | Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, JavaScript, Dockerfile, +3 more |
-| Last Updated | April 29, 2026 at 22:42 UTC |
+| Last Updated | April 29, 2026 at 23:41 UTC |
 
 ---
 
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 1 | 117 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 0 | 118 | 1 | 1 | **1** |
 | **dental-management-system** | 1 | 4 | 1 | 1 | 0 |
 | **sju-medical-patient-information-system** | 0 | 0 | 1 | 0 | 0 |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
@@ -100,8 +100,8 @@ pie showData
 ```mermaid
 pie showData
     title "PRs and Issues Across Organization"
-    "Open PRs" : 2
-    "Closed PRs" : 121
+    "Open PRs" : 1
+    "Closed PRs" : 122
     "Open Issues" : 3
     "Closed Issues" : 2
 ```
@@ -119,7 +119,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on April 29, 2026 at 22:42 UTC.</sub>
+<sub>Auto-generated on April 29, 2026 at 23:41 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
