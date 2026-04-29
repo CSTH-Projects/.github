@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 533 | `6be3fed` refactor(vitals): coexist VitalsPanel per ... | Melkor_1 | 2h ago |
-| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 9h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 535 | `3b8e9ec` Merge pull request #126 from CSTH-Projects... | Melkor | 29m ago |
+| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 10h ago |
 | **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 3d ago |
 | **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 4w ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -46,15 +46,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
-| Total Commits | 577 |
+| Total Commits | 579 |
 | Open Pull Requests | 1 |
-| Merged/Closed Pull Requests | 119 |
+| Merged/Closed Pull Requests | 120 |
 | Open Issues | 3 |
 | Closed Issues | 2 |
 | Security Alerts | 1 |
 | Contributors | 6 |
 | Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, JavaScript, Dockerfile, +3 more |
-| Last Updated | April 29, 2026 at 15:31 UTC |
+| Last Updated | April 29, 2026 at 17:12 UTC |
 
 ---
 
@@ -63,7 +63,7 @@ xychart-beta horizontal
 ```mermaid
 pie showData
     title Codebase Language Breakdown (by bytes)
-    "TypeScript" : 60.8
+    "TypeScript" : 60.9
     "Python" : 25.5
     "PLpgSQL" : 8.4
     "Shell" : 2.5
@@ -74,7 +74,7 @@ pie showData
     "Other" : 0.1
 ```
 
-![TypeScript](https://img.shields.io/badge/TypeScript-60.8%25-3178C6?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-60.9%25-3178C6?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-25.5%25-3776AB?style=flat-square)
 ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-8.4%25-999999?style=flat-square)
 ![Shell](https://img.shields.io/badge/Shell-2.5%25-89E051?style=flat-square)
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 0 | 115 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 0 | 116 | 1 | 1 | **1** |
 | **dental-management-system** | 1 | 4 | 1 | 1 | 0 |
 | **sju-medical-patient-information-system** | 0 | 0 | 1 | 0 | 0 |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
@@ -101,7 +101,7 @@ pie showData
 pie showData
     title "PRs and Issues Across Organization"
     "Open PRs" : 1
-    "Closed PRs" : 119
+    "Closed PRs" : 120
     "Open Issues" : 3
     "Closed Issues" : 2
 ```
@@ -119,7 +119,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on April 29, 2026 at 15:31 UTC.</sub>
+<sub>Auto-generated on April 29, 2026 at 17:12 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
