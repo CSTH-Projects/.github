@@ -2,9 +2,9 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
+| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | 34m ago |
+| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 1h ago |
 | **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 566 | `6e26890` Add classic WHO-style partogram workflow (... | Melkor | yesterday |
-| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 32 | `307cbc1` Update issue templates | Melkor | yesterday |
-| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 4d ago |
 | **patient-management-init** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 1mo ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
 | **schedule-test** | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | n/a | 1 | `deb0dc1` Initial commit | MelKor | 4mo ago |
@@ -24,16 +24,16 @@ xychart-beta
 ```mermaid
 xychart-beta horizontal
     title "Commits per Repository (52 Weeks)"
-    x-axis ["obgyn-patient-information-system", "dental-management-system", "sju-medical-patient-information-system", "patient-management-init", "OR_Schedule", "schedule-test"]
+    x-axis ["dental-management-system", "sju-medical-patient-information-system", "obgyn-patient-information-system", "patient-management-init", "OR_Schedule", "schedule-test"]
     y-axis "Commits"
-    bar [566, 32, 1, 6, 4, 1]
+    bar [32, 1, 566, 6, 4, 1]
 ```
 
 | Repository | Commits (52w) | Frequency |
 |------------|---------------|-----------|
-| **obgyn-patient-information-system** | 566 | Very Active |
 | **dental-management-system** | 32 | Occasional |
 | **sju-medical-patient-information-system** | 1 | Low |
+| **obgyn-patient-information-system** | 566 | Very Active |
 | **patient-management-init** | 6 | Low |
 | **OR_Schedule** | 4 | Low |
 | **schedule-test** | 1 | Low |
@@ -54,7 +54,7 @@ xychart-beta horizontal
 | Security Alerts | 1 |
 | Contributors | 6 |
 | Languages | TypeScript, Python, PLpgSQL, Shell, CSS, FreeMarker, JavaScript, Dockerfile, +3 more |
-| Last Updated | May 01, 2026 at 01:44 UTC |
+| Last Updated | May 01, 2026 at 05:30 UTC |
 
 ---
 
@@ -90,9 +90,9 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 0 | 120 | 1 | 1 | **1** |
 | **dental-management-system** | 1 | 4 | 1 | 1 | 0 |
 | **sju-medical-patient-information-system** | 0 | 0 | 1 | 0 | 0 |
+| **obgyn-patient-information-system** | 0 | 120 | 1 | 1 | **1** |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
 | **schedule-test** | 0 | 0 | 0 | 0 | 0 |
@@ -110,8 +110,8 @@ pie showData
 
 ## Per-Repository Language Breakdown
 
-**obgyn-patient-information-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-59%25-3178C6?style=flat-square) ![Python](https://img.shields.io/badge/Python-27%25-3776AB?style=flat-square) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-9%25-999999?style=flat-square) ![Shell](https://img.shields.io/badge/Shell-3%25-89E051?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square)  
 **dental-management-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-99%25-3178C6?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-0%25-F7DF1E?style=flat-square)  
+**obgyn-patient-information-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-59%25-3178C6?style=flat-square) ![Python](https://img.shields.io/badge/Python-27%25-3776AB?style=flat-square) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-9%25-999999?style=flat-square) ![Shell](https://img.shields.io/badge/Shell-3%25-89E051?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square)  
 **patient-management-init**: ![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=flat-square)  
 **OR_Schedule**: ![Python](https://img.shields.io/badge/Python-100%25-3776AB?style=flat-square)  
 
@@ -119,7 +119,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 01, 2026 at 01:44 UTC.</sub>
+<sub>Auto-generated on May 01, 2026 at 05:30 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
