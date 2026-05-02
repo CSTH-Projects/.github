@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 594 | `0916f08` docs: auto-update documentation index [ski... | github-actions[bot] | 6m ago |
-| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 5h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 596 | `db1ea40` docs: auto-update documentation index [ski... | github-actions[bot] | 41m ago |
+| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | n/a | 1 | `25c1ac8` Update issue templates | Melkor | 6h ago |
 | **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | yesterday |
 | **patient-management-init** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 1mo ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -46,7 +46,7 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
-| Total Commits | 643 |
+| Total Commits | 645 |
 | Open Pull Requests | 0 |
 | Merged/Closed Pull Requests | 129 |
 | Open Issues | 1 |
@@ -54,7 +54,7 @@ xychart-beta horizontal
 | Security Alerts | 2 |
 | Contributors | 6 |
 | Languages | TypeScript, Python, PLpgSQL, CSS, Shell, FreeMarker, JavaScript, Dockerfile, +3 more |
-| Last Updated | May 02, 2026 at 11:34 UTC |
+| Last Updated | May 02, 2026 at 12:39 UTC |
 
 ---
 
@@ -63,9 +63,9 @@ xychart-beta horizontal
 ```mermaid
 pie showData
     title Codebase Language Breakdown (by bytes)
-    "TypeScript" : 61.9
-    "Python" : 25.9
-    "PLpgSQL" : 8.2
+    "TypeScript" : 62.0
+    "Python" : 25.8
+    "PLpgSQL" : 8.1
     "CSS" : 1.3
     "Shell" : 1.2
     "FreeMarker" : 0.7
@@ -74,9 +74,9 @@ pie showData
     "Other" : 0.1
 ```
 
-![TypeScript](https://img.shields.io/badge/TypeScript-61.9%25-3178C6?style=flat-square)
-![Python](https://img.shields.io/badge/Python-25.9%25-3776AB?style=flat-square)
-![PLpgSQL](https://img.shields.io/badge/PLpgSQL-8.2%25-999999?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-62.0%25-3178C6?style=flat-square)
+![Python](https://img.shields.io/badge/Python-25.8%25-3776AB?style=flat-square)
+![PLpgSQL](https://img.shields.io/badge/PLpgSQL-8.1%25-999999?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-1.3%25-563D7C?style=flat-square)
 ![Shell](https://img.shields.io/badge/Shell-1.2%25-89E051?style=flat-square)
 ![FreeMarker](https://img.shields.io/badge/FreeMarker-0.7%25-999999?style=flat-square)
@@ -118,7 +118,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 02, 2026 at 11:34 UTC.</sub>
+<sub>Auto-generated on May 02, 2026 at 12:39 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
