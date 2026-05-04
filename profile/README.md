@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 16 | `ecfe151` Merge pull request #6 from CSTH-Projects/d... | Melkor | 1m ago |
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 621 | `c3a69a0` feat(frontend): add nested folder explorer... | Melkor_1 | 21h ago |
+| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 16 | `ecfe151` Merge pull request #6 from CSTH-Projects/d... | Melkor | 2h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 621 | `c3a69a0` feat(frontend): add nested folder explorer... | Melkor_1 | yesterday |
 | **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 2d ago |
 | **patient-management-init** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 1mo ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -51,10 +51,10 @@ xychart-beta horizontal
 | Merged/Closed Pull Requests | 133 |
 | Open Issues | 1 |
 | Closed Issues | 3 |
-| Security Alerts | 2 |
+| Security Alerts | 3 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, PLpgSQL, Shell, CSS, JavaScript, FreeMarker, MDX, +5 more |
-| Last Updated | May 04, 2026 at 02:05 UTC |
+| Last Updated | May 04, 2026 at 04:14 UTC |
 
 ---
 
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **sju-medical-patient-information-system** | 0 | 5 | 1 | 1 | 0 |
+| **sju-medical-patient-information-system** | 0 | 5 | 1 | 1 | **1** |
 | **obgyn-patient-information-system** | 0 | 123 | 0 | 1 | **1** |
 | **dental-management-system** | 0 | 5 | 0 | 1 | **1** |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
@@ -119,7 +119,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 04, 2026 at 02:05 UTC.</sub>
+<sub>Auto-generated on May 04, 2026 at 04:14 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
