@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 633 | `9a6ab63` Merge pull request #136 from CSTH-Projects... | Melkor | 14m ago |
-| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 16 | `ecfe151` Merge pull request #6 from CSTH-Projects/d... | Melkor | 18h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 636 | `3580b67` Merge pull request #137 from CSTH-Projects... | Melkor | 33m ago |
+| **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 16 | `ecfe151` Merge pull request #6 from CSTH-Projects/d... | Melkor | 21h ago |
 | **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 3d ago |
 | **patient-management-init** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 1mo ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 2mo ago |
@@ -46,15 +46,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
-| Total Commits | 697 |
+| Total Commits | 700 |
 | Open Pull Requests | 2 |
-| Merged/Closed Pull Requests | 136 |
+| Merged/Closed Pull Requests | 137 |
 | Open Issues | 2 |
 | Closed Issues | 3 |
 | Security Alerts | 3 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, PLpgSQL, Shell, CSS, JavaScript, FreeMarker, MDX, +5 more |
-| Last Updated | May 05, 2026 at 01:25 UTC |
+| Last Updated | May 05, 2026 at 04:32 UTC |
 
 ---
 
@@ -63,8 +63,8 @@ xychart-beta horizontal
 ```mermaid
 pie showData
     title Codebase Language Breakdown (by bytes)
-    "Python" : 68.1
-    "TypeScript" : 26.4
+    "Python" : 68.0
+    "TypeScript" : 26.5
     "PLpgSQL" : 3.2
     "Shell" : 0.6
     "CSS" : 0.5
@@ -74,8 +74,8 @@ pie showData
     "Other" : 0.2
 ```
 
-![Python](https://img.shields.io/badge/Python-68.1%25-3776AB?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-26.4%25-3178C6?style=flat-square)
+![Python](https://img.shields.io/badge/Python-68.0%25-3776AB?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-26.5%25-3178C6?style=flat-square)
 ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-3.2%25-999999?style=flat-square)
 ![Shell](https://img.shields.io/badge/Shell-0.6%25-89E051?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-0.5%25-563D7C?style=flat-square)
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 1 | 126 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 1 | 127 | 1 | 1 | **1** |
 | **sju-medical-patient-information-system** | 1 | 5 | 1 | 1 | **1** |
 | **dental-management-system** | 0 | 5 | 0 | 1 | **1** |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
@@ -101,7 +101,7 @@ pie showData
 pie showData
     title "PRs and Issues Across Organization"
     "Open PRs" : 2
-    "Closed PRs" : 136
+    "Closed PRs" : 137
     "Open Issues" : 2
     "Closed Issues" : 3
 ```
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 05, 2026 at 01:25 UTC.</sub>
+<sub>Auto-generated on May 05, 2026 at 04:32 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
