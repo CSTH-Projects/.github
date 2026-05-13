@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 830 | `1426eae` Merge pull request #213 from CSTH-Projects... | Wansajee | 4m ago |
-| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 23h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 847 | `abb990c` Merge pull request #222 from CSTH-Projects... | Wansajee | 22m ago |
+| **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | yesterday |
 | **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | yesterday |
 | **patient-management-init** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 6 | `1a3a4a7` Daily_scheduling_full_implementation | CheDil | 1mo ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 3mo ago |
@@ -18,7 +18,7 @@ xychart-beta
     title "Weekly Commits Across All Repositories"
     x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
     y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 0, 0, 52, 3, 0, 0, 2, 102, 131]
+    bar [0, 0, 0, 0, 0, 0, 0, 52, 3, 0, 0, 2, 102, 135]
 ```
 
 ```mermaid
@@ -26,12 +26,12 @@ xychart-beta horizontal
     title "Commits per Repository (52 Weeks)"
     x-axis ["obgyn-patient-information-system", "dental-management-system", "sju-medical-patient-information-system", "patient-management-init", "OR_Schedule", "schedule-test"]
     y-axis "Commits"
-    bar [821, 37, 18, 6, 4, 1]
+    bar [825, 37, 18, 6, 4, 1]
 ```
 
 | Repository | Commits (52w) | Frequency |
 |------------|---------------|-----------|
-| **obgyn-patient-information-system** | 821 | Very Active |
+| **obgyn-patient-information-system** | 825 | Very Active |
 | **dental-management-system** | 37 | Occasional |
 | **sju-medical-patient-information-system** | 18 | Low |
 | **patient-management-init** | 6 | Low |
@@ -46,15 +46,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 3 |
-| Total Commits | 896 |
+| Total Commits | 913 |
 | Open Pull Requests | 1 |
-| Merged/Closed Pull Requests | 213 |
+| Merged/Closed Pull Requests | 222 |
 | Open Issues | 3 |
 | Closed Issues | 3 |
 | Security Alerts | 3 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, PLpgSQL, JavaScript, Shell, CSS, FreeMarker, MDX, +5 more |
-| Last Updated | May 13, 2026 at 01:21 UTC |
+| Last Updated | May 13, 2026 at 05:00 UTC |
 
 ---
 
@@ -63,8 +63,8 @@ xychart-beta horizontal
 ```mermaid
 pie showData
     title Codebase Language Breakdown (by bytes)
-    "Python" : 67.3
-    "TypeScript" : 27.1
+    "Python" : 67.2
+    "TypeScript" : 27.2
     "PLpgSQL" : 3.1
     "JavaScript" : 0.7
     "Shell" : 0.6
@@ -74,8 +74,8 @@ pie showData
     "Other" : 0.2
 ```
 
-![Python](https://img.shields.io/badge/Python-67.3%25-3776AB?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-27.1%25-3178C6?style=flat-square)
+![Python](https://img.shields.io/badge/Python-67.2%25-3776AB?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-27.2%25-3178C6?style=flat-square)
 ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-3.1%25-999999?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0.7%25-F7DF1E?style=flat-square)
 ![Shell](https://img.shields.io/badge/Shell-0.6%25-89E051?style=flat-square)
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 0 | 202 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 0 | 211 | 1 | 1 | **1** |
 | **dental-management-system** | 1 | 5 | 1 | 1 | **1** |
 | **sju-medical-patient-information-system** | 0 | 6 | 1 | 1 | **1** |
 | **patient-management-init** | 0 | 0 | 0 | 0 | 0 |
@@ -101,7 +101,7 @@ pie showData
 pie showData
     title "PRs and Issues Across Organization"
     "Open PRs" : 1
-    "Closed PRs" : 213
+    "Closed PRs" : 222
     "Open Issues" : 3
     "Closed Issues" : 3
 ```
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 13, 2026 at 01:21 UTC.</sub>
+<sub>Auto-generated on May 13, 2026 at 05:00 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
