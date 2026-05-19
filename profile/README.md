@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 906 | `e2d6345` Merge pull request #236 from CSTH-Projects... | Wansajee | 2m ago |
-| **ot-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 4m ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 906 | `e2d6345` Merge pull request #236 from CSTH-Projects... | Wansajee | 44m ago |
+| **ot-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 2h ago |
 | **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | 2d ago |
 | **dental-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 1w ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 3mo ago |
@@ -18,7 +18,7 @@ xychart-beta
     title "Weekly Commits Across All Repositories"
     x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
     y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 0, 0, 10, 0, 12, 0, 66, 200, 81]
+    bar [0, 0, 0, 0, 0, 0, 0, 10, 0, 12, 0, 68, 200, 81]
 ```
 
 ```mermaid
@@ -26,13 +26,13 @@ xychart-beta horizontal
     title "Commits per Repository (52 Weeks)"
     x-axis ["obgyn-patient-information-system", "ot-management-system", "sju-medical-patient-information-system", "dental-management-system", "OR_Schedule", "schedule-test"]
     y-axis "Commits"
-    bar [906, 6, 18, 37, 4, 1]
+    bar [906, 30, 18, 37, 4, 1]
 ```
 
 | Repository | Commits (52w) | Frequency |
 |------------|---------------|-----------|
 | **obgyn-patient-information-system** | 906 | Very Active |
-| **ot-management-system** | 6 | Low |
+| **ot-management-system** | 30 | Occasional |
 | **sju-medical-patient-information-system** | 18 | Low |
 | **dental-management-system** | 37 | Occasional |
 | **OR_Schedule** | 4 | Low |
@@ -54,7 +54,7 @@ xychart-beta horizontal
 | Security Alerts | 4 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, PLpgSQL, JavaScript, Shell, CSS, FreeMarker, MDX, +5 more |
-| Last Updated | May 19, 2026 at 16:12 UTC |
+| Last Updated | May 19, 2026 at 18:19 UTC |
 
 ---
 
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 19, 2026 at 16:12 UTC.</sub>
+<sub>Auto-generated on May 19, 2026 at 18:19 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
