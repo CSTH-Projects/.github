@@ -2,7 +2,7 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,069 | `23dbf89` Merge pull request #259 from CSTH-Projects... | Wansajee | 5h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,069 | `23dbf89` Merge pull request #259 from CSTH-Projects... | Wansajee | 8h ago |
 | **ot-management-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 1w ago |
 | **sju-medical-patient-information-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | 1w ago |
 | **dental-management-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 2w ago |
@@ -18,7 +18,7 @@ xychart-beta
     title "Weekly Commits Across All Repositories"
     x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
     y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 0, 0, 1, 4, 8, 0, 24, 157, 113]
+    bar [0, 0, 0, 0, 0, 0, 0, 0, 4, 11, 0, 23, 151, 95]
 ```
 
 ```mermaid
@@ -54,7 +54,7 @@ xychart-beta horizontal
 | Security Alerts | 4 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, PLpgSQL, JavaScript, Shell, CSS, FreeMarker, MDX, +5 more |
-| Last Updated | May 28, 2026 at 23:05 UTC |
+| Last Updated | May 29, 2026 at 01:29 UTC |
 
 ---
 
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 28, 2026 at 23:05 UTC.</sub>
+<sub>Auto-generated on May 29, 2026 at 01:29 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
