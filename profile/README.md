@@ -2,7 +2,7 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,109 | `f9ac40e` feat(api): add proxy handlers for chart de... | Melkor_1 | 4h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,125 | `3948aaf` Merge pull request #264 from CSTH-Projects... | Wansajee | 23m ago |
 | **ot-management-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 1w ago |
 | **sju-medical-patient-information-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | 1w ago |
 | **dental-management-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 2w ago |
@@ -46,15 +46,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 6 |
 | Active (last 7 days) | 1 |
-| Total Commits | 1,203 |
+| Total Commits | 1,219 |
 | Open Pull Requests | 2 |
-| Merged/Closed Pull Requests | 257 |
+| Merged/Closed Pull Requests | 258 |
 | Open Issues | 4 |
 | Closed Issues | 4 |
 | Security Alerts | 4 |
 | Contributors | 6 |
-| Languages | Python, TypeScript, PLpgSQL, JavaScript, Shell, CSS, FreeMarker, MDX, +5 more |
-| Last Updated | May 30, 2026 at 13:27 UTC |
+| Languages | Python, TypeScript, JavaScript, PLpgSQL, Shell, CSS, FreeMarker, MDX, +5 more |
+| Last Updated | May 30, 2026 at 14:50 UTC |
 
 ---
 
@@ -63,22 +63,22 @@ xychart-beta horizontal
 ```mermaid
 pie showData
     title Codebase Language Breakdown (by bytes)
-    "Python" : 63.9
-    "TypeScript" : 31.0
-    "PLpgSQL" : 2.7
-    "JavaScript" : 0.6
-    "Shell" : 0.6
+    "Python" : 57.1
+    "TypeScript" : 27.8
+    "JavaScript" : 11.2
+    "PLpgSQL" : 2.4
+    "Shell" : 0.5
     "CSS" : 0.5
     "FreeMarker" : 0.2
     "MDX" : 0.2
-    "Other" : 0.2
+    "Other" : 0.1
 ```
 
-![Python](https://img.shields.io/badge/Python-63.9%25-3776AB?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-31.0%25-3178C6?style=flat-square)
-![PLpgSQL](https://img.shields.io/badge/PLpgSQL-2.7%25-999999?style=flat-square)
-![JavaScript](https://img.shields.io/badge/JavaScript-0.6%25-F7DF1E?style=flat-square)
-![Shell](https://img.shields.io/badge/Shell-0.6%25-89E051?style=flat-square)
+![Python](https://img.shields.io/badge/Python-57.1%25-3776AB?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-27.8%25-3178C6?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-11.2%25-F7DF1E?style=flat-square)
+![PLpgSQL](https://img.shields.io/badge/PLpgSQL-2.4%25-999999?style=flat-square)
+![Shell](https://img.shields.io/badge/Shell-0.5%25-89E051?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-0.5%25-563D7C?style=flat-square)
 ![FreeMarker](https://img.shields.io/badge/FreeMarker-0.2%25-999999?style=flat-square)
 ![MDX](https://img.shields.io/badge/MDX-0.2%25-999999?style=flat-square)
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 0 | 243 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 0 | 244 | 1 | 1 | **1** |
 | **ot-management-system** | 1 | 2 | 1 | 1 | **1** |
 | **sju-medical-patient-information-system** | 0 | 7 | 1 | 1 | **1** |
 | **dental-management-system** | 1 | 5 | 1 | 1 | **1** |
@@ -101,7 +101,7 @@ pie showData
 pie showData
     title "PRs and Issues Across Organization"
     "Open PRs" : 2
-    "Closed PRs" : 257
+    "Closed PRs" : 258
     "Open Issues" : 4
     "Closed Issues" : 4
 ```
@@ -110,7 +110,7 @@ pie showData
 
 ## Per-Repository Language Breakdown
 
-**obgyn-patient-information-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-63%25-3178C6?style=flat-square) ![Python](https://img.shields.io/badge/Python-26%25-3776AB?style=flat-square) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-7%25-999999?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-1%25-F7DF1E?style=flat-square)  
+**obgyn-patient-information-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-49%25-3178C6?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-23%25-F7DF1E?style=flat-square) ![Python](https://img.shields.io/badge/Python-20%25-3776AB?style=flat-square) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-5%25-999999?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square)  
 **ot-management-system**: ![Python](https://img.shields.io/badge/Python-68%25-3776AB?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-31%25-3178C6?style=flat-square) ![Shell](https://img.shields.io/badge/Shell-1%25-89E051?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-0%25-563D7C?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-0%25-F7DF1E?style=flat-square)  
 **sju-medical-patient-information-system**: ![Python](https://img.shields.io/badge/Python-97%25-3776AB?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-2%25-3178C6?style=flat-square) ![MDX](https://img.shields.io/badge/MDX-0%25-999999?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-0%25-F7DF1E?style=flat-square) ![Shell](https://img.shields.io/badge/Shell-0%25-89E051?style=flat-square)  
 **dental-management-system**: ![TypeScript](https://img.shields.io/badge/TypeScript-98%25-3178C6?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-1%25-563D7C?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-1%25-F7DF1E?style=flat-square)  
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on May 30, 2026 at 13:27 UTC.</sub>
+<sub>Auto-generated on May 30, 2026 at 14:50 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
