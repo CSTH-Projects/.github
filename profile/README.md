@@ -2,8 +2,8 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,138 | `a52ffab` Merge pull request #268 from CSTH-Projects... | Wansajee | 19h ago |
-| **ot-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 19h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,138 | `a52ffab` Merge pull request #268 from CSTH-Projects... | Wansajee | 22h ago |
+| **ot-management-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 22h ago |
 | **sju-medical-patient-information-system** | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | 3d ago |
 | **dental-management-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 3w ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 3mo ago |
@@ -54,7 +54,7 @@ xychart-beta horizontal
 | Security Alerts | 4 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, JavaScript, PLpgSQL, Shell, CSS, FreeMarker, MDX, +5 more |
-| Last Updated | June 05, 2026 at 13:32 UTC |
+| Last Updated | June 05, 2026 at 16:23 UTC |
 
 ---
 
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on June 05, 2026 at 13:32 UTC.</sub>
+<sub>Auto-generated on June 05, 2026 at 16:23 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
