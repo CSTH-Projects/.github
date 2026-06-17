@@ -2,7 +2,7 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,356 | `c5ffb20` Merge pull request #280 from CSTH-Projects... | Wansajee | 18h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,356 | `c5ffb20` Merge pull request #280 from CSTH-Projects... | Wansajee | 2m ago |
 | **ot-management-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 1w ago |
 | **sju-medical-patient-information-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | 2w ago |
 | **dental-management-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 1mo ago |
@@ -18,7 +18,7 @@ xychart-beta
     title "Weekly Commits Across All Repositories"
     x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
     y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 0, 10, 0, 12, 0, 68, 200, 141, 140]
+    bar [0, 0, 0, 0, 0, 0, 5, 2, 12, 0, 77, 239, 118, 124]
 ```
 
 ```mermaid
@@ -48,13 +48,13 @@ xychart-beta horizontal
 | Active (last 7 days) | 1 |
 | Total Commits | 1,450 |
 | Open Pull Requests | 5 |
-| Merged/Closed Pull Requests | 269 |
+| Merged/Closed Pull Requests | 270 |
 | Open Issues | 4 |
 | Closed Issues | 4 |
 | Security Alerts | 4 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, JavaScript, PLpgSQL, CSS, Shell, FreeMarker, MDX, +5 more |
-| Last Updated | June 16, 2026 at 23:18 UTC |
+| Last Updated | June 17, 2026 at 01:44 UTC |
 
 ---
 
@@ -90,7 +90,7 @@ pie showData
 
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
-| **obgyn-patient-information-system** | 2 | 254 | 1 | 1 | **1** |
+| **obgyn-patient-information-system** | 2 | 255 | 1 | 1 | **1** |
 | **ot-management-system** | 2 | 2 | 1 | 1 | **1** |
 | **sju-medical-patient-information-system** | 0 | 8 | 1 | 1 | **1** |
 | **dental-management-system** | 1 | 5 | 1 | 1 | **1** |
@@ -101,7 +101,7 @@ pie showData
 pie showData
     title "PRs and Issues Across Organization"
     "Open PRs" : 5
-    "Closed PRs" : 269
+    "Closed PRs" : 270
     "Open Issues" : 4
     "Closed Issues" : 4
 ```
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on June 16, 2026 at 23:18 UTC.</sub>
+<sub>Auto-generated on June 17, 2026 at 01:44 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
