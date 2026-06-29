@@ -2,7 +2,7 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,407 | `5bfcd82` docs: auto-update documentation index [ski... | github-actions[bot] | 3h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,407 | `5bfcd82` docs: auto-update documentation index [ski... | github-actions[bot] | 5h ago |
 | **ot-management-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 3w ago |
 | **sju-medical-patient-information-system** | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | 3w ago |
 | **dental-management-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 1mo ago |
@@ -51,10 +51,10 @@ xychart-beta horizontal
 | Merged/Closed Pull Requests | 275 |
 | Open Issues | 4 |
 | Closed Issues | 4 |
-| Security Alerts | 2 |
+| Security Alerts | 4 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, JavaScript, HTML, PLpgSQL, CSS, Shell, FreeMarker, +6 more |
-| Last Updated | June 29, 2026 at 16:14 UTC |
+| Last Updated | June 29, 2026 at 18:27 UTC |
 
 ---
 
@@ -92,8 +92,8 @@ pie showData
 |------------|------------|--------------|---------------|-----------------|-----------------|
 | **obgyn-patient-information-system** | 0 | 260 | 1 | 1 | **1** |
 | **ot-management-system** | 2 | 2 | 1 | 1 | **1** |
-| **sju-medical-patient-information-system** | 0 | 8 | 1 | 1 | 0 |
-| **dental-management-system** | 1 | 5 | 1 | 1 | 0 |
+| **sju-medical-patient-information-system** | 0 | 8 | 1 | 1 | **1** |
+| **dental-management-system** | 1 | 5 | 1 | 1 | **1** |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
 | **schedule-test** | 0 | 0 | 0 | 0 | 0 |
 
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on June 29, 2026 at 16:14 UTC.</sub>
+<sub>Auto-generated on June 29, 2026 at 18:27 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
