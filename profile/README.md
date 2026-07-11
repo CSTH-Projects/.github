@@ -5,7 +5,7 @@
 | **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | TypeScript | 1,407 | `5bfcd82` docs: auto-update documentation index [ski... | github-actions[bot] | 1w ago |
 | **ot-management-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 34 | `c0d6336` Merge pull request #2 from CSTH-Projects/d... | Wansajee | 1mo ago |
 | **sju-medical-patient-information-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 18 | `5be213d` Merge pull request #7 from CSTH-Projects/d... | Wansajee | 1mo ago |
-| **dental-management-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 1mo ago |
+| **dental-management-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | TypeScript | 37 | `1234808` Merge pull request #6 from CSTH-Projects/E... | Melkor | 2mo ago |
 | **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | Python | 4 | `1d2643a` Bug fixes | chamatka2002 | 5mo ago |
 | **schedule-test** | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | n/a | 1 | `deb0dc1` Initial commit | MelKor | 6mo ago |
 
@@ -54,7 +54,7 @@ xychart-beta horizontal
 | Security Alerts | 4 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, JavaScript, HTML, PLpgSQL, CSS, Shell, FreeMarker, +6 more |
-| Last Updated | July 11, 2026 at 01:16 UTC |
+| Last Updated | July 11, 2026 at 04:33 UTC |
 
 ---
 
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on July 11, 2026 at 01:16 UTC.</sub>
+<sub>Auto-generated on July 11, 2026 at 04:33 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
