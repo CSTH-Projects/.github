@@ -51,10 +51,10 @@ xychart-beta horizontal
 | Merged/Closed Pull Requests | 276 |
 | Open Issues | 4 |
 | Closed Issues | 4 |
-| Security Alerts | 2 |
+| Security Alerts | 4 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, JavaScript, HTML, PLpgSQL, CSS, Shell, FreeMarker, +6 more |
-| Last Updated | July 20, 2026 at 01:19 UTC |
+| Last Updated | July 20, 2026 at 04:57 UTC |
 
 ---
 
@@ -91,9 +91,9 @@ pie showData
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
 | **obgyn-patient-information-system** | 1 | 261 | 1 | 1 | **1** |
-| **ot-management-system** | 2 | 2 | 1 | 1 | 0 |
+| **ot-management-system** | 2 | 2 | 1 | 1 | **1** |
 | **sju-medical-patient-information-system** | 0 | 8 | 1 | 1 | **1** |
-| **dental-management-system** | 1 | 5 | 1 | 1 | 0 |
+| **dental-management-system** | 1 | 5 | 1 | 1 | **1** |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
 | **schedule-test** | 0 | 0 | 0 | 0 | 0 |
 
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on July 20, 2026 at 01:19 UTC.</sub>
+<sub>Auto-generated on July 20, 2026 at 04:57 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
