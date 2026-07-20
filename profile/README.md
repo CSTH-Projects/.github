@@ -18,7 +18,7 @@ xychart-beta
     title "Weekly Commits Across All Repositories"
     x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
     y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 5, 7, 15, 0, 70, 290, 124, 41, 0]
+    bar [0, 0, 0, 0, 0, 4, 7, 8, 0, 59, 199, 117, 27, 0]
 ```
 
 ```mermaid
@@ -51,10 +51,10 @@ xychart-beta horizontal
 | Merged/Closed Pull Requests | 276 |
 | Open Issues | 4 |
 | Closed Issues | 4 |
-| Security Alerts | 4 |
+| Security Alerts | 2 |
 | Contributors | 6 |
 | Languages | Python, TypeScript, JavaScript, HTML, PLpgSQL, CSS, Shell, FreeMarker, +6 more |
-| Last Updated | July 19, 2026 at 23:42 UTC |
+| Last Updated | July 20, 2026 at 01:19 UTC |
 
 ---
 
@@ -91,9 +91,9 @@ pie showData
 | Repository | PRs (Open) | PRs (Closed) | Issues (Open) | Issues (Closed) | Security Alerts |
 |------------|------------|--------------|---------------|-----------------|-----------------|
 | **obgyn-patient-information-system** | 1 | 261 | 1 | 1 | **1** |
-| **ot-management-system** | 2 | 2 | 1 | 1 | **1** |
+| **ot-management-system** | 2 | 2 | 1 | 1 | 0 |
 | **sju-medical-patient-information-system** | 0 | 8 | 1 | 1 | **1** |
-| **dental-management-system** | 1 | 5 | 1 | 1 | **1** |
+| **dental-management-system** | 1 | 5 | 1 | 1 | 0 |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
 | **schedule-test** | 0 | 0 | 0 | 0 | 0 |
 
@@ -120,7 +120,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on July 19, 2026 at 23:42 UTC.</sub>
+<sub>Auto-generated on July 20, 2026 at 01:19 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
