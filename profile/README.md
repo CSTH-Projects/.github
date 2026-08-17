@@ -2,12 +2,12 @@
 
 | Repository | Status | Language | Commits | Latest Commit | Author | Last Push |
 |------------|--------|----------|---------|---------------|--------|-----------|
-| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 1,492 | n/a | n/a | 14h ago |
+| **obgyn-patient-information-system**<br><sub>Hospital Information System — internal docs at csth-...</sub> | ![Active](https://img.shields.io/badge/Active-brightgreen?style=flat-square) | TypeScript | 0 | n/a | n/a | 14h ago |
 | **surgical-scheduling-suite**<br><sub>An application for reserving, scheduling, and managi...</sub> | ![Recent](https://img.shields.io/badge/Recent-yellow?style=flat-square) | n/a | 0 | n/a | n/a | 2w ago |
 | **ot-management-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 0 | n/a | n/a | 2mo ago |
 | **sju-medical-patient-information-system** | ![Slow](https://img.shields.io/badge/Slow-orange?style=flat-square) | Python | 0 | n/a | n/a | 2mo ago |
 | **dental-management-system** | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | TypeScript | 0 | n/a | n/a | 3mo ago |
-| **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | Python | 0 | `1d2643a` Bug fixes | chamatka2002 | 6mo ago |
+| **OR_Schedule**<br><sub>For kalubowila project</sub> | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | Python | 0 | n/a | n/a | 6mo ago |
 | **schedule-test** | ![Inactive](https://img.shields.io/badge/Inactive-red?style=flat-square) | n/a | 0 | n/a | n/a | 7mo ago |
 
 ---
@@ -48,15 +48,15 @@ xychart-beta horizontal
 |--------|-------|
 | Repositories | 7 |
 | Active (last 7 days) | 1 |
-| Total Commits | 1,492 |
+| Total Commits | 0 |
 | Open Pull Requests | 0 |
 | Merged/Closed Pull Requests | 0 |
 | Open Issues | 4 |
 | Closed Issues | 4 |
 | Security Alerts | 4 |
-| Contributors | 1 |
+| Contributors | 0 |
 | Languages |  |
-| Last Updated | August 17, 2026 at 14:49 UTC |
+| Last Updated | August 17, 2026 at 15:13 UTC |
 
 ---
 
@@ -99,7 +99,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on August 17, 2026 at 14:49 UTC.</sub>
+<sub>Auto-generated on August 17, 2026 at 15:13 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
