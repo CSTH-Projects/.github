@@ -19,7 +19,7 @@ xychart-beta
     title "Weekly Commits Across All Repositories"
     x-axis "Weeks ago" [52, 48, 44, 40, 36, 32, 28, 24, 20, 16, 12, 8, 4, 1]
     y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    bar [0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 
 ```mermaid
@@ -27,7 +27,7 @@ xychart-beta horizontal
     title "Commits per Repository (52 Weeks)"
     x-axis ["obgyn-patient-information-system", "surgical-scheduling-suite", "ot-management-system", "sju-medical-patient-information-system", "dental-management-system", "OR_Schedule", "schedule-test"]
     y-axis "Commits"
-    bar [0, 0, 0, 0, 0, 0, 0]
+    bar [0, 0, 0, 0, 0, 4, 0]
 ```
 
 | Repository | Commits (52w) | Frequency |
@@ -37,7 +37,7 @@ xychart-beta horizontal
 | **ot-management-system** | 0 | None |
 | **sju-medical-patient-information-system** | 0 | None |
 | **dental-management-system** | 0 | None |
-| **OR_Schedule** | 0 | None |
+| **OR_Schedule** | 4 | Low |
 | **schedule-test** | 0 | None |
 
 ---
@@ -50,13 +50,13 @@ xychart-beta horizontal
 | Active (last 7 days) | 1 |
 | Total Commits | 0 |
 | Open Pull Requests | 0 |
-| Merged/Closed Pull Requests | 0 |
+| Merged/Closed Pull Requests | 2 |
 | Open Issues | 4 |
 | Closed Issues | 4 |
 | Security Alerts | 4 |
-| Contributors | 0 |
+| Contributors | 1 |
 | Languages |  |
-| Last Updated | August 17, 2026 at 13:57 UTC |
+| Last Updated | August 17, 2026 at 14:19 UTC |
 
 ---
 
@@ -77,7 +77,7 @@ pie showData
 |------------|------------|--------------|---------------|-----------------|-----------------|
 | **obgyn-patient-information-system** | 0 | 0 | 1 | 1 | **1** |
 | **surgical-scheduling-suite** | 0 | 0 | 0 | 0 | 0 |
-| **ot-management-system** | 0 | 0 | 1 | 1 | **1** |
+| **ot-management-system** | 0 | 2 | 1 | 1 | **1** |
 | **sju-medical-patient-information-system** | 0 | 0 | 1 | 1 | **1** |
 | **dental-management-system** | 0 | 0 | 1 | 1 | **1** |
 | **OR_Schedule** | 0 | 0 | 0 | 0 | 0 |
@@ -86,6 +86,7 @@ pie showData
 ```mermaid
 pie showData
     title "PRs and Issues Across Organization"
+    "Closed PRs" : 2
     "Open Issues" : 4
     "Closed Issues" : 4
 ```
@@ -99,7 +100,7 @@ pie showData
 
 <div align="center">
 
-<sub>Auto-generated on August 17, 2026 at 13:57 UTC.</sub>
+<sub>Auto-generated on August 17, 2026 at 14:19 UTC.</sub>
 <sub>Updates automatically on every push, PR, issue, or security event across all organization repositories.</sub>
 
 </div>
